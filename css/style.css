@@ -50,6 +50,7 @@ section {
 }
 .header {
 	background: url("../img/header_bg.png") no-repeat -290px;
+	background-size: auto 100%;
 	min-height: 760px;
 }
 .top-line {
@@ -126,7 +127,6 @@ section {
 }
 .list-icon {
 	text-align: center;
-	margin-left: 80px;
 	padding-bottom: 0;
 }
 .list-icon li {
@@ -404,8 +404,8 @@ section {
 	margin-left: 0;
 }
 .footer	{
-	background-color: #284e75;
-	background: url("../img/men.png") no-repeat 150px bottom, url("../img/bg-footer.png") no-repeat -290px;
+	background: #284e75 url("../img/bg-footer.png") no-repeat -290px center;
+	background-size: auto 100%;
 }
 .footer .title {
 	margin-bottom: 40px;
@@ -433,6 +433,10 @@ section {
 	margin-top: 40px;
 	text-align: right;
 	color: #fff;
+	font-size: 20px;
+}
+.footer address .one{
+	font-size: 24px;
 }
 .bottom-line {
 	background: rgba(33,71,109,.8);
