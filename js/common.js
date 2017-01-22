@@ -4,13 +4,14 @@ $(document).ready(function(){
 
     $('.box-offers .item-section').css({'height':heightR});
 
-    $('.item-section2,.item-section3,.item-section4,.item1,.item2,.item3,.item4,.item5').viewportChecker({
+    $('.item-section1,.item-section2,.item-section3,.item-section4,.item1,.item2,.item3,.item4,.item5').viewportChecker({
         classToAdd: 'visible animated fadeIn',
         repeat:true,
-        offset:10
+        offset:200
     });
    $('.number').viewportChecker({
         callbackFunction: function(){
+            $('.item-section').addClass('test');
             $('.number-1').animate({ num: 5200}, {
                 duration: 3000,
                 step: function (num){
