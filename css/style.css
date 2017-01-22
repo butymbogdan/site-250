@@ -284,77 +284,83 @@ section {
 .how-to-start h4, .how-to-start h2{
 	color: #284e75;
 }
-.item1, .item3, .item5 {
-	background: no-repeat center bottom;
-	text-align: center;
-	padding-bottom: 110px;
-	margin-bottom: 80px;
-	font-size: 18px;
+.how-to-start .container {
 	position: relative;
 }
-.item2,.item4 {
-	background: no-repeat center top;
-	text-align: center;
-	padding-top: 110px;
-	margin-bottom: 80px;
-	font-size: 18px;
-	position: relative;
-}
-.item1 {
-	background-image: url("../img/avatar-2.png");
-}
-.item1::before {
-	content: "";
-	background-image: url("../img/arow-1-2.png");
-	display: block;
-	width: 124px;
-	height: 124px;
+.item1,, .item, .item3, .item5 {
 	position: absolute;
-	bottom: -75%;
-	left: 50%;
 }
-.item2 {
-	background-image: url("../img/avatar-2.png");
-}
-.item2:before {
-	content: "";
-	background-image: url("../img/arow-2-3.png");
-	display: block;
-	width: 124px;
-	height: 124px;
-	position: absolute;
-	top: -90%;
-	right: 17%;
-}
-.item3 {
-	background-image: url("../img/avatar-2.png");
-}
-.item3:before {
-	content: "";
-	background-image: url("../img/arow-3-4.png");
-	display: block;
-	width: 124px;
-	height: 124px;
-	position: absolute;
-	right: 19%;
-	bottom: -55%;
-}
-.item4 {
-	background-image: url("../img/avatar-2.png");
-}
-.item4:before {
-	content: "";
-	background-image: url("../img/arow-4-5.png");
-	display: block;
-	width: 124px;
-	height: 124px;
-	position: absolute;
-	top: -37%;
-	right: 0;
-}
-.item5 {
-	background-image: url("../img/avatar-2.png");
-}
+/*.item1, .item3, .item5 {*/
+	/*background: no-repeat center bottom;*/
+	/*text-align: center;*/
+	/*padding-bottom: 110px;*/
+	/*margin-bottom: 80px;*/
+	/*font-size: 18px;*/
+	/*position: relative;*/
+/*}*/
+/*.item2,.item4 {*/
+	/*background: no-repeat center top;*/
+	/*text-align: center;*/
+	/*padding-top: 110px;*/
+	/*margin-bottom: 80px;*/
+	/*font-size: 18px;*/
+	/*position: relative;*/
+/*}*/
+/*.item1 {*/
+	/*background-image: url("../img/avatar-2.png");*/
+/*}*/
+/*.item1::before {*/
+	/*content: "";*/
+	/*background-image: url("../img/arow-1-2.png");*/
+	/*display: block;*/
+	/*width: 124px;*/
+	/*height: 124px;*/
+	/*position: absolute;*/
+	/*bottom: -75%;*/
+	/*left: 50%;*/
+/*}*/
+/*.item2 {*/
+	/*background-image: url("../img/avatar-2.png");*/
+/*}*/
+/*.item2:before {*/
+	/*content: "";*/
+	/*background-image: url("../img/arow-2-3.png");*/
+	/*display: block;*/
+	/*width: 124px;*/
+	/*height: 124px;*/
+	/*position: absolute;*/
+	/*top: -90%;*/
+	/*right: 17%;*/
+/*}*/
+/*.item3 {*/
+	/*background-image: url("../img/avatar-2.png");*/
+/*}*/
+/*.item3:before {*/
+	/*content: "";*/
+	/*background-image: url("../img/arow-3-4.png");*/
+	/*display: block;*/
+	/*width: 124px;*/
+	/*height: 124px;*/
+	/*position: absolute;*/
+	/*right: 19%;*/
+	/*bottom: -55%;*/
+/*}*/
+/*.item4 {*/
+	/*background-image: url("../img/avatar-2.png");*/
+/*}*/
+/*.item4:before {*/
+	/*content: "";*/
+	/*background-image: url("../img/arow-4-5.png");*/
+	/*display: block;*/
+	/*width: 124px;*/
+	/*height: 124px;*/
+	/*position: absolute;*/
+	/*top: -37%;*/
+	/*right: 0;*/
+/*}*/
+/*.item5 {*/
+	/*background-image: url("../img/avatar-2.png");*/
+/*}*/
 .box-questions {
 	margin-bottom: 40px;
 }

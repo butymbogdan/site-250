@@ -11,7 +11,6 @@ $(document).ready(function(){
     });
    $('.number').viewportChecker({
         callbackFunction: function(){
-            $('.item-section').addClass('test');
             $('.number-1').animate({ num: 5200}, {
                 duration: 3000,
                 step: function (num){
