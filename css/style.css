@@ -14,6 +14,20 @@ section {
 .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
 	outline: none;
 }
+.btn-danger {
+	background: #c73430;
+}
+.btn-danger:hover {
+	background-color: #e43d39;
+	border-color: #e43d39;
+}
+.btn-primary {
+	background-color: #3267a1;
+}
+.btn-primary:hover {
+	background-color: #3267a1;
+	border-color: #3267a1;
+}
 .title {
 	text-transform: uppercase;
 	text-align: center;
@@ -39,7 +53,7 @@ section {
 	min-height: 760px;
 }
 .top-line {
-	height: 102px;
+	min-height: 102px;
 	box-shadow: 0 0 10px #000;
 }
 .logo {
@@ -89,6 +103,7 @@ section {
 	font-weight: bold;
 	margin-top: 0;
 	float: left;
+	line-height: 1;
 }
 .description li .btn {
 	border: 1px solid #fff;
@@ -164,15 +179,22 @@ section {
 .section-number .title-sm {
 	margin: 41px 0 50px 0;
 	font-weight: normal;
+	text-transform: none;
+	font-size: 24px;
 }
 .section-number .number {
 	display: block;
 	width: 145px;
 	height: 145px;
 	text-align: center;
-	line-height: 145px;
+	line-height: .7;
 	font-weight: bold;
 	margin: 0 auto 15px auto;
+	font-size: 34px;
+	padding: 62px 0;
+}
+.section-number .number small {
+	font-size: 17px;
 }
 .section-number .number-1 {
 	background: url("../img/number-1.2.png") no-repeat;
@@ -185,13 +207,18 @@ section {
 }
 .section-number .text {
 	display: block;
-	width: 100px;
+	width: 145px;
 	height: 100px;
 	text-align: center;
 	margin: 0 auto;
+	font-size: 18px;
+}
+.section-description {
+	font-size: 17px;
 }
 .earning-partners {
 	background: #f4f4f4 url("../img/bg-earning-partners.png") no-repeat -290px;
+	background-size: auto 100%;
 }
 .earning-partners .title, .answers-to-questions .title {
 	color: #113d6a;
@@ -235,11 +262,12 @@ section {
 	width: 200px;
 	text-align: center;
 	color: #92a3b7;
-	font-size: 100px;
+	font-size: 164px;
 	font-weight: bold;
 }
-.min-section .media-body {
-	padding-right: 250px;
+.media-body p {
+	font-size: 24px;
+	margin-top: 18px;
 }
 .answers-to-questions {
 	background: #f0f3f7;
@@ -247,9 +275,11 @@ section {
 }
 .earning-partners p {
 	padding: 0 100px;
+	font-size: 20px;
 }
 .how-to-start {
 	background: url("../img/bg-number.png") no-repeat center;
+	background-size: 100% auto;
 }
 .how-to-start h4, .how-to-start h2{
 	color: #284e75;

@@ -8,3 +8,8 @@
         width: 950px;
     }
 }
+@media (min-width: 768px){
+    .min-section .media-body {
+        padding-right: 220px;
+    }
+}
