@@ -2,31 +2,172 @@
     .container {
         width: 960px;
     }
+    .how-to-start {
+        background-size: 68% auto!important;
+    }
+    .min-section::after {
+        content: "";
+        background: url("../img/min-sect.png") no-repeat right top;
+        right: -95px!important;
+    }
+    .footer-form::before{
+        content: "";
+        background: url("../img/arow.png") no-repeat;
+        width: 187px;
+        height: 300px;
+        display: block;
+        position: absolute;
+        left: -200px;
+    }
+}
+@media (min-width: 768px){
+    .how-to-start {
+        background-size: 95% auto;
+    }
+    .item1::before, .item2::before, .item3::before, .item4::before, .item5::before {
+        content: "";
+        display: block;
+        width: 124px;
+        height: 124px;
+        position: absolute;
+    }
+    .item1::before {
+        background: url("../img/arow-1-2.png") no-repeat;
+        background-size: 77%;
+        bottom: -81%;
+        left: 42%;
+    }
+    .item2:before {
+        background: url("../img/arow-2-3.png") no-repeat;
+        top: -90%;
+        right: 17%;
+    }
+    .item3:before {
+        background: url("../img/arow-3-4.png") no-repeat;
+        right: 0;
+        bottom: -55%;
+    }
+    .item4:before {
+        background: url("../img/arow-4-5.png") no-repeat;
+        background-size: 66%;
+        top: -42%;
+        right: 44px;
+    }
+    .two-section {
+        background: url("../img/bg-we-offer.png") no-repeat -290px;
+        background-color: #2861a1;
+    }
+    .call {
+        max-width: 280px;
+        margin-top: 22px;
+        text-align: right;
+    }
 }
 @media (min-width: 992px){
     .container {
         width: 950px;
     }
-}
-@media (min-width: 768px){
-    .min-section .media-body {
+    .play-video {
+        margin: 0 auto;
+    }
+    .header-btn {
+        margin: 20px 0 10px 100px;
+    }
+    .item1::before {
+        background-size: 77%;
+        bottom: -86%;
+        left: 44%;
+    }
+    .item2:before {
+        top: -90%;
+        right: 17%;
+    }
+    .item3:before {
+        right: 7%;
+        bottom: -55%;
+    }
+    .item4:before {
+        background-size: 77%;
+        top: -40%;
+        right: 60px;
+    }
+    .min-section::after {
+        content: "";
+        background: url("../img/min-sect.png") no-repeat right top;
+        width: 291px;
+        height: 566px;
+        display: block;
+        position: absolute;
+        top: 0;
+        right: -40px;
+    }
+    .min-sect-item p {
         padding-right: 220px;
     }
+    .footer	{
+        background: #284e75 url("../img/bg-footer.png") no-repeat -290px center;
+    }
 }
-@media (max-width: 768px){
+@media (max-width: 767px){
+    .call {
+        margin: 20px 0;
+    }
     .description {
         text-align: center;
     }
-    .description li h1 {
-        font-size: 58px;
+    .play-video {
+        margin: 0 auto;
     }
-    .description li h5 {
-        font-size: 20px;
+    .two-section .item-section h4 {
+        padding: 0 20px;
     }
-    .description li h4 {
-        font-size: 23px;
+    .min-section {
+        margin: 0;
     }
-    .description li h3 {
-        font-size: 43px;
+    .earning-partners p {
+        padding: 0;
+        text-align: justify;
+    }
+    .how-to-start {
+        background-image: none;
+    }
+    .box-questions img {
+        margin: 0 auto 30px auto;
+        display: block;
+        float: none!important;
+    }
+    .questions p, .answer p {
+        text-align: justify;
+    }
+    .questions p::before {
+        content: "";
+        border: solid 20px transparent;
+        border-bottom: solid 20px #fff;
+        left: 50%;
+        top: -39px;
+        transform: translateX(-50%);
+    }
+    .answer p::before {
+        content: "";
+        border: solid 20px transparent;
+        border-bottom: solid 20px #fff;
+        right: 50%;
+        top: -39px;
+        transform: translateX(50%);
+    }
+    .footer address {
+        font-size: 17px;
+    }
+    .bottom-line,.bottom-line span:last-child {
+        text-align: center!important;
+    }
+}
+@media (max-width: 425px){
+    .min-sect-item .num {
+        display: none;
+    }
+    .min-sect-item .p-wrap{
+        width: 100%;
+        text-align: justify;
     }
 }
