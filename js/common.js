@@ -1,5 +1,17 @@
 $(document).ready(function(){
 
+    var heightR = $('.box-offers').height();
+    var width = $(window).width();
+    $(window).resize(function(){
+        width = $(this).width();
+        if(width > 767){
+            console.log(width);
+
+            $('.box-offers .item-section').css({'height': heightR});
+        }
+    });
+
+
     $('.item-section1,.item-section2,.item-section3,.item-section4,.item1,.item2,.item3,.item4,.item5').viewportChecker({
         classToAdd: 'visible animated fadeIn',
         repeat:true,

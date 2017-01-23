@@ -2,6 +2,12 @@
     .container {
         width: 960px;
     }
+    .header {
+        background: url("../img/header_bg.png") no-repeat -290px;
+    }
+    .header-btn {
+        margin: 20px 0 10px 100px;
+    }
     .how-to-start {
         background-size: 68% auto!important;
     }
@@ -69,9 +75,6 @@
     }
     .play-video {
         margin: 0 auto;
-    }
-    .header-btn {
-        margin: 20px 0 10px 100px;
     }
     .item1::before {
         background-size: 77%;
